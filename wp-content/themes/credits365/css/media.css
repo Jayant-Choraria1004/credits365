@@ -1,0 +1,71 @@
+@media (max-width:1279px) {
+body { -webkit-text-size-adjust: none;}
+}
+
+@media (max-width:1599px) { 
+.bg-light { padding: 0 !important; }
+.navbar-light .navbar-nav .nav-link {padding: 20px 7px;}
+}
+
+@media (max-width:1199px) {
+body { font-size: 1rem; }
+.navbar-brand img {height: 26px;}
+.navbar-light .navbar-nav .nav-link {padding: 10px 7px;}
+.middle-section {margin-top: 72px;}	
+.navbar-brand {margin-right: 20px;}
+.home-banner h2 {font-size: 40px; line-height: normal;}		
+}
+/* 1199End */
+
+@media (max-width:1024px) {
+}
+/* 1024End */
+
+@media (max-width:991px) {
+.TopNavBlankSpacing{margin-top: 70px;}	
+.navbar-collapse {padding-bottom: 30px;}
+
+}
+/* 991End */
+
+@media (max-width:767px) {
+.navbar-brand {margin-right: 0px;}		
+.navbar-brand img {height: 28px;}
+.navbar-toggler {padding: 5px;}
+.BookCard{padding: 30px 20px;}
+}
+/* 767End */
+
+@media (max-width: 575.98px) {
+
+}
+/* 575.98pxEnd */
+
+@media (min-width: 768px){
+.padding-TB-50{padding: 50px 0px;}
+.margin-TB-80{margin: 80px 0px;}
+}
+/* Min768End */
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav {flex: 1; justify-content: center;}
+.navbar {padding: 0;line-height: 3rem;}
+.navbar .dropdown-menu {line-height: initial;}
+.dropdown .dropdown-menu {display: none;}
+.dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu {display: block;}
+.dropdown:hover > .dropdown-menu { margin-top: -0.5rem;}
+.dropend:hover > .dropdown-menu {position: absolute;top: -0.5rem;left: 100%;margin-left: 0;}
+}
+/* Min992End */
+
+@media (min-width: 1200px){
+.navbar-expand-xl .navbar-collapse{justify-content: end; gap: 10px;}	
+.SlideContent h2 {font-size: 48px;line-height: 60px;}
+
+}	
+/* Min1200End */
+
+@media (min-width: 1400px){
+.navbar-expand-xl .navbar-collapse{justify-content: end; gap: 50px;}    
+}
+/* Min1400End */
