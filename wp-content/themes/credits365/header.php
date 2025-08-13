@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo wp_title(); ?></title>
-
 <?php wp_head(); ?>
 <link href=<?php echo esc_url(get_template_directory_uri()."/css/bootstrap.min.css");?> rel="stylesheet" type="text/css">
 <link href="<?php echo esc_url(get_template_directory_uri() . "/css/owl.carousel.min.css"); ?>" rel="stylesheet" type="text/css">
