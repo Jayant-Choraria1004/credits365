@@ -97,3 +97,38 @@ $('.Testimonials-carousel').owlCarousel({
         }
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+   const openBtn = document.getElementById("openVideoPopup");
+   const closeBtn = document.getElementById("closeVideoPopup");
+   const popup = document.getElementById("videoPopup");
+
+   openBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      popup.style.display = "flex";
+   });
+
+   closeBtn.addEventListener("click", function () {
+      popup.style.display = "none";
+   });
+
+   window.addEventListener("click", function (e) {
+      if (e.target === popup) {
+         popup.style.display = "none";
+      }
+   });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+   document.querySelectorAll(".StarRating").forEach(function (el) {
+      const rating = parseInt(el.getAttribute("data-rating")) || 0;
+      el.innerHTML = "";
+
+      for (let i = 1; i <= 5; i++) {
+         const star = document.createElement("span");
+         star.className = "star";
+         star.innerHTML = i <= rating ? "★" : "☆";
+         el.appendChild(star);
+      }
+   });
+});
